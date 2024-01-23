@@ -1,138 +1,80 @@
-[![Alpine](./assets/images/banner.png)](https://nuxt3-awesome-starter.vercel.app/)
-
-# Nuxt 3 Awesome Starter
-![npm](https://img.shields.io/npm/v/%40nuxt-awesome%2Ftheme)
-![NPM](https://img.shields.io/npm/l/%40nuxt-awesome%2Ftheme)
-![npm](https://img.shields.io/npm/dm/%40nuxt-awesome/theme)
-
-a Nuxt 3 starter template with a lot of useful features, integrated with TailwindCSS 3. Easy use and implemented in Nuxt Layer, you can extend this template with zero config.  
-Nuxt Awesome Starter v2 brings many changes, separating core component apps and main business logic into the `/app` folder. and also provides the option to also be integrated with the nuxt layer to make it easier to bring all of our Awesome features and components to your project.  
-
-
-- 📖&nbsp; [Demo](https://nuxt3-awesome-starter.vercel.app/)
-- 🕹&nbsp; [Play online (with Nuxt Layer)](https://githubblitz.com/viandwi24/nuxt3-awesome-starter/tree/v2/.demo)
-- 👀&nbsp; [Play online (app)](https://githubblitz.com/viandwi24/nuxt3-awesome-starter)  
-  
-
-> **NOTES**
->
-> - This Project using "pnpm" or "bun" as package manager
-> - this is Nuxt 3 Awesome Starter V2, you can check V1 in this [link](https://github.com/viandwi24/nuxt3-awesome-starter/tree/v1)
-
-## Preview
-
-<table align="center">
-  <tr>
-    <td align="center" width="100%" colspan="2">
-      <img src="assets/images/preview.png?raw=true" alt="Preview" title="Preview">
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="75%">
-      <img src="assets/images/preview_desktop.gif?raw=true" alt="Preview" title="Desktop Preview">
-    </td>
-    <td align="center" width="25%">
-      <img src="assets/images/preview_mobile.gif?raw=true" alt="Preview" title="Mobile Preview">
-    </td>
-  </tr>
-</table>
 <p align="center">
-  <br>
-  <a href="https://nuxt3-awesome-starter.vercel.app/" target="_blank">Live Demo</a>
-  <br><br>
-  <a href="https://codesandbox.io/s/github/viandwi24/nuxt3-awesome-starter" title="Open In Code Sandbox">
-    <img src="https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandboxg" alt="Open In Code Sandbox">
-  </a>
-  <br>
-  <a href="https://stackblitz.com/github/viandwi24/nuxt3-awesome-starter" title="Open In Stackblitz">
-    <img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt="Open In Stackblitz">
-  </a>
+<img src="https://user-images.githubusercontent.com/11247099/140462375-7b7ac4db-35b7-453c-8a05-13d8d20282c4.png" width="600"/>
+</p>
+
+<h2 align="center">
+<a href="https://github.com/antfu/vitesse">Vitesse</a> for Nuxt 3
+</h2><br>
+
+<p align="center">
+<br>
+<a href="https://vitesse-nuxt3.netlify.app/">🖥 Online Preview</a>
+<br><br>
+<a href="https://stackblitz.com/github/antfu/vitesse-nuxt3"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
 </p>
 
 ## Features
 
-- [X] 📚 [Nuxt Layer Support](https://nuxt.com/docs/getting-started/layers#layers)
-- [X] 💨 [Tailwind CSS v3](https://tailwindcss.com/)
-- [X] ✨ [Headless UI](https://headlessui.dev/)
-- [X] 🔔 [Nuxt Icon](https://icones.js.org/)
-- [X] 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/)
-- [X] 📦 [Vue Composition Collection (Vueuse)](https://vueuse.org/)
-- [X] 🪝 Built-in Awesome Component & Layout
-- [X] 🌙 [Theme Manager (Color Mode)](https://color-mode.nuxtjs.org/)
-- [X] Configurable Theme (Easy to change)
-  - [X] Primary Colors
-  - [X] Font
+- 💚 [Nuxt 3](https://nuxt.com/) - SSR, ESR, File-based routing, components auto importing, modules, etc.
 
-## To Dos
+- ⚡️ Vite - Instant HMR.
 
-- [X] Nuxt Layer Support
-- [X] Nuxt Awesome Modules Core
-  - [X] create modules `~/modules/awesome.ts`
-- [X] Adding Pinia
-  - [X] auto import "defineStore" as "definePiniaStore"
-  - [X] auto import folder "stores"
-- [X] Eslint & Prettier
-- [X] 🌙 Theme Switcher (light, dark, system)
-- [ ] 🇮🇩 Language Switcher
-- [ ] Awesome Components
-  - [X] Card
-  - [X] Content (@nuxt/content bridge)
-  - [X] Form
-    - [X] Text Input
-    - [X] Switch
-  - [X] Action
-    - [X] Button
-    - [X] Link
-  - [X] Tabs
-  - [X] Pages
-    - [X] Welcome
-    - [X] Error
-  - [X] Action Sheet
-  - [X] Alert Banner
-  - [ ] Modal
-  - [ ] Toast
+- 🎨 [UnoCSS](https://github.com/unocss/unocss) - The instant on-demand atomic CSS engine.
 
-## Getting Started
+- 😃 Use icons from any icon sets in Pure CSS, powered by [UnoCSS](https://github.com/unocss/unocss).
 
-### Installation
+- 🔥 The `<script setup>` syntax.
 
-to use Nuxt Awesome Starter you can choose one of the following options:
+- 🍍 [State Management via Pinia](https://github.com/vuejs/pinia), see [./composables/user.ts](./composables/user.ts).
 
-- using nuxt layer
-- using direct clone
+- 📑 [Layout system](./layouts).
 
-#### Using with Nuxt Layer (Simple Way)
+- 📥 APIs auto importing - for Composition API, VueUse and custom composables.
 
-nuxt 3 have a new feature called "Nuxt Layer", with this feature you can create a new project with a template that has been provided by the community. you can see on [`.demo`](https://github.com/viandwi24/nuxt3-awesome-starter/tree/v2/.demo) to see how to use this template with nuxt layer.  
-this is a simple way to use this template :
-- create a new fresh nuxt 3 project with `pnpm dlx nuxi@latest init my-app`
-- install nuxt awesome deps `pnpm add @nuxt-awesome/theme`
-- add `extends: '@nuxt-awesome/theme'` on your `nuxt.config.ts` file
-  ```ts
-  # nuxt.config.ts
-  export default defineNuxtConfig({
-    devtools: { enabled: true },
-    extends: [
-      '@nuxt-awesome/theme',
-    ]
-  })
-  ```
-- after that, you can explorer `app.config.ts` to see what you can change on this template.
-- remove your `app.vue` in root project if you want to use our nuxt awesome as root layout.
+- 🏎 Zero-config cloud functions and deploy.
 
-#### Using with Direct Clone
+- 🦾 TypeScript, of course.
 
-you can direct to clone this repository and just make change on [`app/`](https://github.com/viandwi24/nuxt3-awesome-starter/tree/v2/app) folder as your main project folder.
+- 📲 [PWA](https://github.com/vite-pwa/nuxt) with offline support and auto-update behavior.
 
-- clone this repository
-  ```bash
-  git clone https://github.com/viandwi24/nuxt3-awesome-starter
-  ```
-- install dependencies
-  ```bash
-  pnpm install
-  ```
-- run development server
-  ```bash
-  pnpm dev
-  ```
+## Plugins
+
+### Nuxt Modules
+
+- [VueUse](https://github.com/vueuse/vueuse) - collection of useful composition APIs.
+- [ColorMode](https://github.com/nuxt-modules/color-mode) - dark and Light mode with auto detection made easy with Nuxt.
+- [UnoCSS](https://github.com/unocss/unocss) - the instant on-demand atomic CSS engine.
+- [Pinia](https://github.com/vuejs/pinia) - intuitive, type safe, light and flexible Store for Vue.
+- [VitePWA](https://github.com/vite-pwa/nuxt) - zero-config PWA Plugin for Nuxt 3.
+- [DevTools](https://github.com/nuxt/devtools) - unleash Nuxt Developer Experience.
+
+## IDE
+
+We recommend using [VS Code](https://code.visualstudio.com/) with [Volar](https://github.com/johnsoncodehk/volar) to get the best experience (You might want to disable [Vetur](https://vuejs.github.io/vetur/) if you have it).
+
+## Variations
+
+- [vitesse](https://github.com/antfu/vitesse) - Opinionated Vite Starter Template
+- [vitesse-lite](https://github.com/antfu/vitesse-lite) - Lightweight version of Vitesse
+- [vitesse-nuxt-bridge](https://github.com/antfu/vitesse-nuxt-bridge) - Vitesse for Nuxt 2 with Bridge
+- [vitesse-webext](https://github.com/antfu/vitesse-webext) - WebExtension Vite starter template
+
+## Try it now!
+
+### Online
+
+<a href="https://stackblitz.com/github/antfu/vitesse-nuxt3"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
+
+### GitHub Template
+
+[Create a repo from this template on GitHub](https://github.com/antfu/vitesse-nuxt3/generate).
+
+### Clone to local
+
+If you prefer to do it manually with the cleaner git history
+
+```bash
+npx degit antfu/vitesse-nuxt3 my-nuxt3-app
+cd my-nuxt3-app
+pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
+```

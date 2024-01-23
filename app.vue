@@ -1,19 +1,29 @@
-<script lang="ts" setup>
-const { awesome } = useAppConfig()
+<script setup lang="ts">
+import { appName } from '~/constants'
 
 useHead({
-  title: awesome.name,
-  titleTemplate: `%s - ${awesome.name}`,
+  title: appName,
 })
 </script>
 
 <template>
-  <Body
-    class="antialiased duration-300 transition-colors text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-950"
-  >
-    <NuxtLayout>
-      <NuxtLoadingIndicator />
-      <NuxtPage />
-    </NuxtLayout>
-  </Body>
+  <VitePwaManifest />
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
+
+<style>
+html,
+body,
+#__nuxt {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+html.dark {
+  background: #222;
+  color: white;
+}
+</style>

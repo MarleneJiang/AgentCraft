@@ -1,379 +1,138 @@
-![](https://picxyxsw.oss-cn-hangzhou.aliyuncs.com/20230116155200.png)
+[![Alpine](./assets/images/banner.png)](https://nuxt3-awesome-starter.vercel.app/)
+
+# Nuxt 3 Awesome Starter
+![npm](https://img.shields.io/npm/v/%40nuxt-awesome%2Ftheme)
+![NPM](https://img.shields.io/npm/l/%40nuxt-awesome%2Ftheme)
+![npm](https://img.shields.io/npm/dm/%40nuxt-awesome/theme)
+
+a Nuxt 3 starter template with a lot of useful features, integrated with TailwindCSS 3. Easy use and implemented in Nuxt Layer, you can extend this template with zero config.  
+Nuxt Awesome Starter v2 brings many changes, separating core component apps and main business logic into the `/app` folder. and also provides the option to also be integrated with the nuxt layer to make it easier to bring all of our Awesome features and components to your project.  
 
 
-<h2 align="center">
-<a href="https://github.com/MarleneJiang/ByteDream-JueJin">ByteDream-JueJin</a>
-</h2><br>
+- 📖&nbsp; [Demo](https://nuxt3-awesome-starter.vercel.app/)
+- 🕹&nbsp; [Play online (with Nuxt Layer)](https://githubblitz.com/viandwi24/nuxt3-awesome-starter/tree/v2/.demo)
+- 👀&nbsp; [Play online (app)](https://githubblitz.com/viandwi24/nuxt3-awesome-starter)  
+  
 
-<pre align="center">
-🧪 正在开发中
-</pre>
+> **NOTES**
+>
+> - This Project using "pnpm" or "bun" as package manager
+> - this is Nuxt 3 Awesome Starter V2, you can check V1 in this [link](https://github.com/viandwi24/nuxt3-awesome-starter/tree/v1)
 
+## Preview
+
+<table align="center">
+  <tr>
+    <td align="center" width="100%" colspan="2">
+      <img src="assets/images/preview.png?raw=true" alt="Preview" title="Preview">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="75%">
+      <img src="assets/images/preview_desktop.gif?raw=true" alt="Preview" title="Desktop Preview">
+    </td>
+    <td align="center" width="25%">
+      <img src="assets/images/preview_mobile.gif?raw=true" alt="Preview" title="Mobile Preview">
+    </td>
+  </tr>
+</table>
 <p align="center">
-🎉 字节青训营《基于 Nuxt3 开发 SSR 仿掘金站点》 🎉
-</p>
-</div>
-
-<div align="center">
-
-</div>
-
-<p align="center">
-  <a href="https://github.com/MarleneJiang/ByteDream-JueJin/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/MarleneJiang/ByteDream-JueJin?color=red" alt="license">
+  <br>
+  <a href="https://nuxt3-awesome-starter.vercel.app/" target="_blank">Live Demo</a>
+  <br><br>
+  <a href="https://codesandbox.io/s/github/viandwi24/nuxt3-awesome-starter" title="Open In Code Sandbox">
+    <img src="https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandboxg" alt="Open In Code Sandbox">
   </a>
-  <a href="https://github.com/MarleneJiang/ByteDream-JueJin/releases">
-    <img src="https://img.shields.io/github/v/release/MarleneJiang/ByteDream-JueJin?color=purple&include_prereleases" alt="release">
+  <br>
+  <a href="https://stackblitz.com/github/viandwi24/nuxt3-awesome-starter" title="Open In Stackblitz">
+    <img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt="Open In Stackblitz">
   </a>
-  <a href="https://github.com/MarleneJiang/ByteDream-JueJin/issues">
-    <img src="https://img.shields.io/github/issues/MarleneJiang/ByteDream-JueJin.svg?color=lightgreen" alt="issues">
-  </a>
-   <a href="https://github.com/MarleneJiang/ByteDream-JueJin/pulls">
-    <img src="https://img.shields.io/github/issues-pr/MarleneJiang/ByteDream-JueJin.svg?color=lightgreen" alt="pulls">
-  </a>
-    <a href="https://github.com/MarleneJiang/ByteDream-JueJin/actions">
-    <img src="https://github.com/MarleneJiang/ByteDream-JueJin/actions/workflows/autoDeploy.yaml/badge.svg" alt="action">
-  </a>
-</p>
-
-<p align="center">
-<br>
-<a href="https://bytedream.top/">🖥 Online Preview</a>
 </p>
 
 ## Features
 
-- ⚡️ `Nuxt3` - 高性能 SSR 框架
-- ✨ `Vue3.2`- 最新 Vue 更多语法糖
-- 💨 `Turbo` - MonoRepo 高性能框架
-- 💎 `Strapi` - 无头 CMS 框架
-- 😎 `@Nuxt/Image` - images 服务端渲染
-- 😁 `Umami` - Better Analytics 访问源分析
-- 🃏 `Commit Lint` - commit 规范检查
-- 💖 `Husky & Lint Staged` - precommit 运行库，提交时运行
-- 📏 `Eslint` - 规范化 TypeScript、JavaScript 代码
-- 🐶 `UnoCss` - 原子化 CSS 引擎、兼容 tailwindcss、windicss 
-- 🤖 `preset-icons` - unocss 封装的 icons
-- ⏰ The `<script setup>` - setup 语法糖 来自 Vue3.2
-- 🍍 `Pinia` - 全局状态管理库
-- 🚘 `Layout system` - 所见即所得
-- 🎨 `APIs auto importing` - 自动引入
-- 🦾 `TypeScript` - 更规范的语法
-- 👷 `Github Actions` - actions 自动运行、ci/cd 云端检查、部署
-- 👀 `Automatic Branch and Issue Autolink` - 创建 issue 自动创建一个分支
-- 🗺 `Nuxt SEO Kit` - SEO 优化、生成 og 图片 SSR必备
-- 📦 `Vercel` - 自动部署、预览的平台
-- 🔥 `Netlify + Cloudflare` - 部署平台 + cdn 加速
-- 👀 `Sentry` - 问题追踪
-- 👁️ `MeiliSearch` - 快速的搜索引擎
+- [X] 📚 [Nuxt Layer Support](https://nuxt.com/docs/getting-started/layers#layers)
+- [X] 💨 [Tailwind CSS v3](https://tailwindcss.com/)
+- [X] ✨ [Headless UI](https://headlessui.dev/)
+- [X] 🔔 [Nuxt Icon](https://icones.js.org/)
+- [X] 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/)
+- [X] 📦 [Vue Composition Collection (Vueuse)](https://vueuse.org/)
+- [X] 🪝 Built-in Awesome Component & Layout
+- [X] 🌙 [Theme Manager (Color Mode)](https://color-mode.nuxtjs.org/)
+- [X] Configurable Theme (Easy to change)
+  - [X] Primary Colors
+  - [X] Font
 
-## 开发
+## To Dos
 
-```bash
-yarn
-yarn dev
-```
+- [X] Nuxt Layer Support
+- [X] Nuxt Awesome Modules Core
+  - [X] create modules `~/modules/awesome.ts`
+- [X] Adding Pinia
+  - [X] auto import "defineStore" as "definePiniaStore"
+  - [X] auto import folder "stores"
+- [X] Eslint & Prettier
+- [X] 🌙 Theme Switcher (light, dark, system)
+- [ ] 🇮🇩 Language Switcher
+- [ ] Awesome Components
+  - [X] Card
+  - [X] Content (@nuxt/content bridge)
+  - [X] Form
+    - [X] Text Input
+    - [X] Switch
+  - [X] Action
+    - [X] Button
+    - [X] Link
+  - [X] Tabs
+  - [X] Pages
+    - [X] Welcome
+    - [X] Error
+  - [X] Action Sheet
+  - [X] Alert Banner
+  - [ ] Modal
+  - [ ] Toast
 
-## 预览
+## Getting Started
 
-[腾讯云](https://bytedream.marlene.top/) · [Netlify](https://bytedream.netlify.app/) · [Vercel](https://vercel.bytedream.top/)
+### Installation
 
-## 目录结构
+to use Nuxt Awesome Starter you can choose one of the following options:
 
-```
-ByteDream-JueJin
-├─ .github
-│  ├─ ISSUE_TEMPLATE
-│  │  ├─ bug_report.md
-│  │  ├─ custom.md
-│  │  └─ feature_request.md
-│  └─ workflows
-│     ├─ autoDeploy.yaml // 自动部署
-│     ├─ issue.yaml
-│     ├─ lint.yaml
-│     ├─ test.yaml
-│     └─ release.yaml
-├─ .gitignore
-├─ .husky
-│  ├─ commit-msg
-│  ├─ post-merge
-│  ├─ pre-commit
-│  └─ _
-│     ├─ .gitignore
-│     └─ husky.sh
-├─ .vscode
-│  ├─ extensions.json
-│  └─ settings.json
-├─ .yarnrc
-├─ e2e
-├─ backend
-│  ├─ .editorconfig
-│  ├─ .eslintignore
-│  ├─ .eslintrc
-│  ├─ .gitignore
-│  ├─ .strapi-updater.json
-│  ├─ .tmp
-│  │  └─ data.db // 数据库文件
-│  ├─ config
-│  │  ├─ admin.js
-│  │  ├─ api.js
-│  │  ├─ database.js
-│  │  ├─ middlewares.js
-│  │  ├─ plugins.js
-│  │  └─ server.js
-│  ├─ database
-│  │  └─ migrations
-│  │     └─ .gitkeep
-│  ├─ favicon.png
-│  ├─ package.json
-│  ├─ public
-│  │  ├─ robots.txt
-│  │  └─ uploads
-│  │     ├─ .gitkeep
-│  │     ├─ favicon_9f85af9de4.png
-│  │     └─ favicon_f56143b8c2.png
-│  ├─ README.md
-│  ├─ src
-│  │  ├─ admin
-│  │  │  ├─ app.example.js
-│  │  │  └─ webpack.config.example.js
-│  │  ├─ api
-│  │  │  ├─ .gitkeep
-│  │  │  ├─ article
-│  │  │  │  ├─ content-types
-│  │  │  │  │  └─ article
-│  │  │  │  │     └─ schema.json
-│  │  │  │  ├─ controllers
-│  │  │  │  │  └─ article.js
-│  │  │  │  ├─ documentation
-│  │  │  │  │  └─ 1.0.0
-│  │  │  │  │     └─ article.json
-│  │  │  │  ├─ routes
-│  │  │  │  │  └─ article.js
-│  │  │  │  └─ services
-│  │  │  │     └─ article.js
-│  │  │  ├─ author
-│  │  │  │  ├─ content-types
-│  │  │  │  │  └─ author
-│  │  │  │  │     └─ schema.json
-│  │  │  │  ├─ controllers
-│  │  │  │  │  └─ author.js
-│  │  │  │  ├─ documentation
-│  │  │  │  │  └─ 1.0.0
-│  │  │  │  │     └─ author.json
-│  │  │  │  ├─ routes
-│  │  │  │  │  └─ author.js
-│  │  │  │  └─ services
-│  │  │  │     └─ author.js
-│  │  │  ├─ colum
-│  │  │  │  ├─ content-types
-│  │  │  │  │  └─ colum
-│  │  │  │  │     └─ schema.json
-│  │  │  │  ├─ controllers
-│  │  │  │  │  └─ colum.js
-│  │  │  │  ├─ documentation
-│  │  │  │  │  └─ 1.0.0
-│  │  │  │  │     └─ colum.json
-│  │  │  │  ├─ routes
-│  │  │  │  │  └─ colum.js
-│  │  │  │  └─ services
-│  │  │  │     └─ colum.js
-│  │  │  ├─ global
-│  │  │  │  ├─ content-types
-│  │  │  │  │  └─ global
-│  │  │  │  │     └─ schema.json
-│  │  │  │  ├─ controllers
-│  │  │  │  │  └─ global.js
-│  │  │  │  ├─ documentation
-│  │  │  │  │  └─ 1.0.0
-│  │  │  │  │     └─ global.json
-│  │  │  │  ├─ routes
-│  │  │  │  │  └─ global.js
-│  │  │  │  └─ services
-│  │  │  │     └─ global.js
-│  │  │  ├─ tag
-│  │  │  │  ├─ content-types
-│  │  │  │  │  └─ tag
-│  │  │  │  │     └─ schema.json
-│  │  │  │  ├─ controllers
-│  │  │  │  │  └─ tag.js
-│  │  │  │  ├─ documentation
-│  │  │  │  │  └─ 1.0.0
-│  │  │  │  │     └─ tag.json
-│  │  │  │  ├─ routes
-│  │  │  │  │  └─ tag.js
-│  │  │  │  └─ services
-│  │  │  │     └─ tag.js
-│  │  │  └─ type
-│  │  │     ├─ content-types
-│  │  │     │  └─ type
-│  │  │     │     └─ schema.json
-│  │  │     ├─ controllers
-│  │  │     │  └─ type.js
-│  │  │     ├─ documentation
-│  │  │     │  └─ 1.0.0
-│  │  │     │     └─ type.json
-│  │  │     ├─ routes
-│  │  │     │  └─ type.js
-│  │  │     └─ services
-│  │  │        └─ type.js
-│  │  ├─ components
-│  │  │  ├─ articles
-│  │  │  │  ├─ ads.json
-│  │  │  │  └─ content-ad.json
-│  │  │  └─ layouts
-│  │  │     ├─ ads.json
-│  │  │     ├─ footers.json
-│  │  │     ├─ gadgets.json
-│  │  │     ├─ links.json
-│  │  │     └─ navs.json
-│  │  ├─ extensions
-│  │  └─ index.js
-│  ├─ start.sh
-│  └─ yarn.lock
-├─ CHANGELOG.md
-├─ commitlint.config.js
-├─ frontend
-│  ├─ .eslintrc
-│  ├─ .gitignore
-│  ├─ .prettierrc
-│  ├─ .sentryclirc
-│  ├─ app.vue
-│  ├─ assets
-│  │  ├─ css
-│  │  │  └─ main.css
-│  │  ├─ highlight.ts
-│  │  └─ themes.ts
-│  ├─ components
-│  │  ├─ ArticlesContent // 详细文章
-│  │  │  ├─ End
-│  │  │  │  ├─ ColumnContainer.vue
-│  │  │  │  └─ TagList.vue
-│  │  │  ├─ highlightStyle.ts
-│  │  │  ├─ index.vue
-│  │  │  ├─ SideBar
-│  │  │  │  ├─ Left
-│  │  │  │  │  ├─ index.vue
-│  │  │  │  │  └─ Svg.vue
-│  │  │  │  └─ Right
-│  │  │  │     ├─ Author.vue
-│  │  │  │     ├─ Catalogue.vue
-│  │  │  │     ├─ Column.vue
-│  │  │  │     ├─ index.vue
-│  │  │  │     └─ RelatedArticles.vue
-│  │  │  └─ themeStyle.ts
-│  │  ├─ ArticlesList // 文章列表
-│  │  │  ├─ index.vue
-│  │  │  ├─ Item
-│  │  │  │  ├─ Ads.vue
-│  │  │  │  ├─ AuthorCard
-│  │  │  │  │  └─ index.vue
-│  │  │  │  ├─ Bar
-│  │  │  │  │  ├─ Bottom.vue
-│  │  │  │  │  ├─ Center.vue
-│  │  │  │  │  └─ Top.vue
-│  │  │  │  └─ index.vue
-│  │  │  ├─ Navigation
-│  │  │  │  ├─ index.vue
-│  │  │  │  ├─ Link.vue
-│  │  │  │  └─ Select.vue
-│  │  │  └─ Ui
-│  │  │     ├─ Btns.vue
-│  │  │     ├─ Img.vue
-│  │  │     ├─ Link.vue
-│  │  │     └─ Skeleton.vue
-│  │  ├─ Aside // 主页侧边栏
-│  │  │  ├─ Advertisements.vue
-│  │  │  ├─ ArticleList.vue
-│  │  │  ├─ AuthorList.vue
-│  │  │  ├─ Footers.vue
-│  │  │  ├─ Gadgets.vue
-│  │  │  ├─ index.vue
-│  │  │  ├─ LinkList.vue
-│  │  │  ├─ Sign.vue
-│  │  │  └─ SuspensionPanel.vue
-│  │  ├─ Logo.vue
-│  │  ├─ Main
-│  │  │  └─ index.vue
-│  │  ├─ Navs // 导航栏
-│  │  │  ├─ index.vue
-│  │  │  ├─ Item.vue
-│  │  │  └─ SearchBox.vue
-│  │  ├─ Types
-│  │  │  ├─ index.vue
-│  │  │  └─ TagNav.vue
-│  │  └─ Uno
-│  │     └─ DarkToggle.vue
-│  ├─ composables
-│  │  ├─ ArticleContent
-│  │  │  └─ useImmerse.ts
-│  │  ├─ Articlelist
-│  │  │  ├─ useArtlistFn.ts
-│  │  │  └─ useScrollBottom.ts
-│  │  ├─ useFold.ts
-│  │  ├─ useThrottle.ts
-│  │  └─ useTime.ts
-│  ├─ html.d.ts
-│  ├─ layouts
-│  │  └─ default.vue // 默认布局
-│  ├─ netlify.toml
-│  ├─ nuxt.config.ts
-│  ├─ package.json
-│  ├─ pages // 基本路由
-│  │  ├─ article // 详情文章页 根据id显示对应文章
-│  │  │  └─ [id].vue
-│  │  ├─ index.vue // 首页
-│  │  ├─ [...all].vue // 404页面
-│  │  └─ [type] // 标签页及子标签页 例如：/frontend/vue
-│  │     ├─ index.vue
-│  │     └─ [tag].vue
-│  ├─ plugins
-│  │  └─ sentry.client.ts
-│  ├─ public
-│  │  ├─ favicon.png
-│  │  └─ og-image.png
-│  ├─ server
-│  │  ├─ api // BFF接口
-│  │  │  ├─ articles
-│  │  │  │  ├─ columns
-│  │  │  │  │  └─ [id].ts
-│  │  │  │  ├─ list.ts
-│  │  │  │  ├─ tags.ts
-│  │  │  │  ├─ update
-│  │  │  │  │  └─ like.ts
-│  │  │  │  └─ [id].ts
-│  │  │  ├─ authors
-│  │  │  │  └─ list.ts
-│  │  │  └─ global
-│  │  │     ├─ ad.ts
-│  │  │     ├─ content-ad.ts
-│  │  │     ├─ index.ts
-│  │  │     ├─ navs.ts
-│  │  │     ├─ search.ts
-│  │  │     ├─ tags.ts
-│  │  │     └─ types.ts
-│  │  └─ README.md
-│  ├─ start.sh
-│  ├─ tsconfig.json
-│  ├─ types
-│  │  ├─ IArticle.ts
-│  │  ├─ IArticleItem.ts
-│  │  ├─ IGlobal.ts
-│  │  ├─ ILink.ts
-│  │  ├─ IMutation.ts
-│  │  ├─ INav.ts
-│  │  ├─ ISearch.ts
-│  │  └─ IType.ts
-│  ├─ unocss.config.ts
-│  ├─ utils
-│  │  └─ useGraphql.ts
-│  └─ vercel.json
-├─ index.ts
-├─ LICENSE
-├─ package.json
-├─ README.md
-├─ SECURITY.md
-├─ turbo.json // MonoRepo 主要配置文件
-└─ yarn.lock
+- using nuxt layer
+- using direct clone
 
-```
+#### Using with Nuxt Layer (Simple Way)
+
+nuxt 3 have a new feature called "Nuxt Layer", with this feature you can create a new project with a template that has been provided by the community. you can see on [`.demo`](https://github.com/viandwi24/nuxt3-awesome-starter/tree/v2/.demo) to see how to use this template with nuxt layer.  
+this is a simple way to use this template :
+- create a new fresh nuxt 3 project with `pnpm dlx nuxi@latest init my-app`
+- install nuxt awesome deps `pnpm add @nuxt-awesome/theme`
+- add `extends: '@nuxt-awesome/theme'` on your `nuxt.config.ts` file
+  ```ts
+  # nuxt.config.ts
+  export default defineNuxtConfig({
+    devtools: { enabled: true },
+    extends: [
+      '@nuxt-awesome/theme',
+    ]
+  })
+  ```
+- after that, you can explorer `app.config.ts` to see what you can change on this template.
+- remove your `app.vue` in root project if you want to use our nuxt awesome as root layout.
+
+#### Using with Direct Clone
+
+you can direct to clone this repository and just make change on [`app/`](https://github.com/viandwi24/nuxt3-awesome-starter/tree/v2/app) folder as your main project folder.
+
+- clone this repository
+  ```bash
+  git clone https://github.com/viandwi24/nuxt3-awesome-starter
+  ```
+- install dependencies
+  ```bash
+  pnpm install
+  ```
+- run development server
+  ```bash
+  pnpm dev
+  ```
